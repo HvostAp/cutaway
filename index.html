@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Page</title>
+</head>
+<style>
+
+</style>
+
+<body>
+
+    <section class="start-slider">
+        <span class="start-t1">-</span>
+        <span class="start-t2">N</span>
+        <span class="start-t3">D</span>
+        <span class="start-t4">Y</span>
+        <span class="start-t5">-</span>
+    </section>
+
+    <section id="back-bg">
+        <main class="page">
+            <header class="header">
+                <div class="img-person">
+
+                    <img src="img/img1.png" alt="myPhoto" class="pphoto">
+
+                </div>
+                <div class="preson-info">
+
+                    <h1 class="person-name">Nikolksy Dmitry</h1>
+                    <p class="jfd">Junior Frontend Developer</p>
+                    <div class="contacts-bg">
+                        <p class="contacts">Contacts</p>
+                    </div>
+                    <ul>
+                        <li title="WhatsApp/myPhone" class="contacts-item">☎ +7 919 380 25 19</li>
+                        <li class="contacts-item">✉ nickolscky.dima@yandex.ru</li>
+                        <li class="contacts-item">✉ @Dmitriinikolsky (Tg)</li>
+                        <li class="contacts-item">☎ NDY#1344 (Discord)</li>
+                    </ul>
+                </div>
+            </header>
+            <section class="about-myself">
+                <div class="about-myself__section">
+                    <h2 class="about-myself__title">About Myself :</h2>
+                    <p class="about-myself__subtitle">The story is this: for several years I have been freelancing on
+                        the Internet. Soon I realized that I needed to move on, and I decided to go to a more
+                        professional level to improve my knowledge and get a real job in IT. While going through several
+                        different courses on the Internet, I came across RS Shool, which was also recommended to me by
+                        my friend :). At the moment my goal is to learn <strong>Frontend.</strong></p>
+                </div>
+                <div class="about-myself__section">
+                    <h2 class="about-myself__title">Courses :</h2>
+
+                    <ul class="about-myself__list">
+                        <li>❤ JavaScript <a href="https://learn.javascript.ru/" target="_blank">learn.javascript.ru</a>
+                            (in progress)</li>
+                        <li>❤ Now I am actively learning the material from <a href="https://rs.school/"
+                                target="_blank">(RS Shool)</a>JS / Front-end (RU)</li>
+                        <li>❤ I also take courses at PurpleSchool <a href="https://learn.purpleschool.ru"
+                                target="_blank">learn.purpleschool.ru</a>.</li>
+                        <li>❤ I also do an internship at Yandex Praktikum <a href="https://practicum.yandex.ru/"
+                                target="_blank">practicum.yandex.ru</a>.</li>
+                        <li>❤ So soon I'm looking at the <strong>React</strong> framework :)</li>
+                    </ul>
+
+                </div>
+                <div class="about-myself__section">
+                    <h2 class="about-myself__title">Code example :</h2>
+                    <p class="about-myself__subtitle">The highest kata that I managed to solve all the time from
+                        <strong>CODWARS:</strong> It was necessary to write an algorithm that takes an array and moves
+                        all zeros to the end. The algorithm must preserve the order of the remaining elements.
+                    </p>
+                    <pre>
+                        <code class="code">
+                            <span id="fn">function</span> moveZeros(arr) {
+                            const zero = arr.filter(n => n === 0)
+                            arr = arr.filter(n => n !== 0) 
+                            arr = [...arr, ...zero]
+                            return arr}
+                        </code>
+                    </pre>
+                </div>
+
+            </section>
+
+            <section class="my-works">
+                <h3 class="my-works__title">My works</h3>
+                <div class="myw-wrapper">
+                    <div class="slider">
+                        <div class="slides">
+                            <input type="radio" name="radio-btn" id="radio1">
+                            <input type="radio" name="radio-btn" id="radio2">
+                            <input type="radio" name="radio-btn" id="radio3">
+                            <input type="radio" name="radio-btn" id="radio4">
+
+                            <div class="slide first">
+                                <img src="img/project1.jpg" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="img/project3.jpg" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="img/project4.jpg" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="img/project2.jpg" alt="">
+                            </div>
+
+                            <div class="navigation-auto">
+                                <div class="auto-btn1"></div>
+                                <div class="auto-btn2"></div>
+                                <div class="auto-btn3"></div>
+                                <div class="auto-btn4"></div>
+                            </div>
+                        </div>
+                        <div class="navigation-manual">
+                            <label for="radio1" class="manual-btn"></label>
+                            <label for="radio2" class="manual-btn"></label>
+                            <label for="radio3" class="manual-btn"></label>
+                            <label for="radio4" class="manual-btn"></label>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </section>
+            <section class="my-progress">
+                <h4 class="my-progress__title">My progress</h4>
+                <div class="my-progress__wrapper">
+                    <div class="my-progress__left-section">
+                        <h2 class="my-progress__left-section_title">SOFT SKILLS :</h2>
+                        <ul>
+                            <li class="my-progress__left-section_subtitle">⭐ I have experience with <span>Git</span>.
+                            </li>
+                            <li class="my-progress__left-section_subtitle">⭐ Using the <span>BEM</span> methodology.
+                            </li>
+                            <li class="my-progress__left-section_subtitle">⭐ Some works use the <span>SCSS</span>
+                                preprocessor.</li>
+                            <li class="my-progress__left-section_subtitle">⭐ Used <span>gulp</span> in a couple of jobs.
+                            </li>
+                            <li class="my-progress__left-section_subtitle">⭐ I know how to make <span>Adaptive
+                                    Layout</span>.</li>
+                        </ul>
+                    </div>
+                    <div class="my-progress__right-section">
+                        <div class="my-progress__right-section_item">
+                            <div class="imghtml-bg">
+                                <img class="imghtml-bg__item" src="img/orc.jpg" alt="">
+                            </div>
+                            <span>75%</span>
+                        </div>
+                        <div class="my-progress__right-section_item">
+                            <div class="imghtml-bg">
+                                <img class="imghtml-bg__item" src="img/orc1.jpg" alt="">
+                            </div>
+                            <span>75%</span>
+                        </div>
+                        <div class="my-progress__right-section_item">
+                            <div class="imghtml-bg">
+                                <img class="imghtml-bg__item" src="img/orc2.jpg" alt="">
+                            </div>
+                            <span>25%</span>
+                        </div>
+                        <div class="my-progress__right-section_item">
+                            <div class="imghtml-bg">
+                                <img class="imghtml-bg__item" src="img/orc3.jpg" alt="">
+                            </div>
+                            <span>0%</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer class="footer">
+                <h5 class="footer__title"><span>-</span><span>N</span><span>D</span><span>Y</span><span>-</span></h5>
+                <time>©2022</time>
+                <nav class="footer__nav">
+                    <a class="footer__nav_item" href="https://github.com/HvostAp" target="_blank"></a>
+                    <a class="footer__nav_item" href="https://www.codewars.com/users/HvostAp" target="_blank"></a>
+                </nav>
+            </footer>
+            <main />
+    </section>
+
+    <div class="scroll-up">
+        <svg class="scroll-up__svg" viewBox="-2 -2 52 52">
+            <path class="scroll-up__svg-path" d="M24,0 a24,24 0 0,1 0,48 a24,24 0 0,1 0, -48" />
+        </svg>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+    <script>
+        VANTA.NET({
+            el: "#back-bg",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            color: 0x4064,
+            backgroundColor: 0x9001e,
+            color: 0xff1c6a
+        })
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
