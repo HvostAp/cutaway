@@ -604,14 +604,14 @@ li {
 }
 
 .footer__nav_item:nth-child(1) {
-  background-image: url(/img/githubicon.svg);
+  background-image: url(./img/githubicon.svg);
   background-repeat: no-repeat;
   background-position: center;
   transition: 2s;
 }
 
 .footer__nav_item:nth-child(2) {
-  background-image: url(/img/codewarsicon.svg);
+  background-image: url(./img/codewarsicon.svg);
   background-repeat: no-repeat;
   background-position: center;
   transition: 4s;
